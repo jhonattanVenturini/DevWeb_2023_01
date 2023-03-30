@@ -1,0 +1,60 @@
+
+------------- Sintas inicial para todo tipo de programação em HTML-----------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+------------------------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width= , initial-scale=1.0" />
+        <title> MC NEGO DO BOREL </title>
+    </head> 
+    <body>
+        <h1>Apresentação</h1>
+        <p>
+            Me chamo Jhonattan tenho 20 anos, quero aprender a programar, gosto
+            bastante de automação de <br />
+            processor e inovar com ideias de crescimento profissional.
+        </p>
+        <h2>Motivo de escolha do IOS:</h2>
+        <p>
+            Escolhi a IOS por um único motivo aprender a logica de programação
+            para assim poder fazer <br />
+            a ultilização na prática.
+        </p>
+        &#8364;&#8364;&#8364;&#8364;
+
+        <h2>Metas de 2023</h2>
+        <!-- lista ordenada -->
+        <ol>
+            <li>Aprender a programar e me desenvolver nessa área</li>
+            <li>Aprender Inglês</li>
+            <li>Aprender a principalmente o frond end e no futuro back end</li>
+            <li>Focar nos estudos e desenvolver projetos</li>
+        </ol>
+
+        <h2>Metas de 2024</h2>
+        <!-- lista não ordenada -->
+        <li>
+            Poder me desenvolver na programação e começar a programar para
+            empresas Estrangeiras <br />
+        </li>
+        <li>Comprar um carro com o meu dinheiro de Dev</li>
+    </body>
+</html>

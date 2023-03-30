@@ -1,0 +1,184 @@
+exercicio 06
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< <concatenar> >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/CSS/estilo.css">
+        <title>Aula 07- Concatenar</title>
+    </head>
+    <body>
+        <table border="3">
+            <tr>
+                <th>FRUTAS</th>
+                <th>QUANTIDADE</th>
+                <th>VENDIDOS</th>
+            </tr>
+            <tr>
+                <td>Maçã</td>
+                <td rowspan="2">5</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Pera</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Uva</td>
+                <td>7</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Morango</td>
+                <td>11</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Maracujá</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+        <tfoot>
+           <tr>
+            <td> Total de Vendidos</td>  
+            <td colspan="2"> 28 </td>
+        </tr>
+            
+        </tfoot>
+        
+        </table>
+        </tfoot>
+    </body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<< <efoot> >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=!, initial-scale=1.0" />
+        <title>AULA 07</title>
+    </head>
+    <body>
+        <table border="2xp">
+            <thead>
+                <tr>
+                    <th>ALUNOS</th>
+                    <th>NOTAS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <tr>
+                        <td>Vanessa</td> <td> 8</td>
+                    </tr>
+                    <tr>
+                        <td>Karoline</td><td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Igor</td><td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Erick</td><td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Vitor</td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td> Jessica</td><td>8</td>
+                    </tr>
+                    <tr>
+                        <td> Evaristo</td><td>7</td>
+                    </tr>
+                    <tr>
+                        <td> Patricia</td><td>9</td>
+                    </tr>                
+                </tr>
+            </tbody>
+        <tfoot>
+
+ <tr>
+    <th> Média Final: </th> <th>6,75 </th>
+ </tr>       </tfoot>
+        </table>
+    </body>
+</html>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< <tabela exemplo para exercicio> >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> AI BRANCO</title>
+    </head>
+    <body>
+        <!-- tabela do brasileirão Posição / nome do time -->
+
+        <table border="5">
+            <thead>
+                <tr>
+                    <th>Posição</th> <th> Nome do time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1°</td>
+                    <td>Corinthians</td>
+                </tr>
+                <tr>
+                    <td>2°</td>
+                    <td>Água santa</td>
+                </tr>
+            </tbody>
+           <TFOOt>
+            <tr>
+                <td>Resultado </td> <td> Corinthians</td>
+            </tr>
+        </TFOOT>
+    <ble></ble>   
+    
+    </table>
+        <HR></HR>
+
+        <table border="1px">
+            <h1> LISTA DE COMPRAS </h1>     
+           <tr>
+             <th> Verduras </th> <th> Limpeza </th> <th> Frutas</th>
+           </tr>
+           <tr>
+            <td>Alface </td> <td> Detergente </td> <td> Maçã</td>
+           </tr>
+        <tr>
+            <td>Alface </td> <td> Detergente </td> <td> Maçã</td>
+        </tr> 
+        <tr> 
+        <td>Alface </td> <td> Detergente </td> <td> Maçã</td>
+        </tr>    
+        <tr>
+        <td>Alface </td> <td> Detergente </td> <td> Maçã</td>
+        </tr>
+
+        </table>
+    </body>
+</html>
+
+
+
+
+
+
+
+

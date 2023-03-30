@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+}
+p{
+    color: red;
+}
+h1{
+    color: black;
+}
+tr, td, th {
+    text-align: right;
+}
