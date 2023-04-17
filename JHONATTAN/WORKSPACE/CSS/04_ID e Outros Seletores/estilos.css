@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-shadow: ;
+    text-align: center;
+    color: white;
+
+}
+#carro{
+ background-color: blue;
+ color: brown;
+}
+#teste{
+    border-right: 1px;
+    text-align:center;
+
+}
+#uno{
+ color: blue;   
+
+}
+#Strada{
+    color: red;
+}
+#Agro{
+color: orangered;
+}
+
+#toro{
+color: blueviolet;
+}
+
+#Palio{
+color: yellow;
+}
+#mobi{
+color: green;
+}
