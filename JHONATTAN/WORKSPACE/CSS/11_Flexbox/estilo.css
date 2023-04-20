@@ -1,0 +1,26 @@
+@charset "utf-8";
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+.item-box-1 {
+  flex: 2;
+  order: 2;
+  align-self: flex-end;
+}
+.item-box-2 {
+  flex: 1;
+  order: 1;
+}
+.item-box-3 {
+  flex: 1;
+  order: 3;
+}
+.item-box-4 {
+  flex: 3;
+  order: 3;
+}
