@@ -1,18 +1,15 @@
-#Corpo{
-    background-color:grey;
-
+body{
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monoespaçado;
+    width:700px;
+    background-color: #b3e9f3;
 }
-
-#Titulo{
-    color:blue;
-    height:;
-    width: ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    text-shadow: 15px;
-    box-shadow: 25%;
+h1{
+    background-color: #6590d1;
+    text: shadow 3px #48789f;
 }
-img {
-    height: 100%;
-    width: 30%;
+img{
+    height:500px;
+    width: 700px;
+
 }
