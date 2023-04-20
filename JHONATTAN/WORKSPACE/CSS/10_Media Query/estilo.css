@@ -1,0 +1,19 @@
+@charset "UTF-8" 
+.Fundo{
+    background-color: grey;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Titulo{
+    background-color: aliceblue;
+    color: #946b6b;
+    text-align: center;
+    text-shadow: none;
+
+  }
+.Float{
+    float: left;
+    width:50%;
+
+}
+
