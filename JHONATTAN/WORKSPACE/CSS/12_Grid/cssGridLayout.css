@@ -1,0 +1,34 @@
+@charset "utf-8";
+.propriedades {
+  grid-template-columns: ;
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+}
+body {
+  background-color: rgba(211, 211, 211, 0.36);
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  background-color: rgb(105, 193, 227);
+  color: black;
+  text-align: center;
+  font-size: 300%;
+}
+.propriedades > div {
+  background-color: rgb(82, 11, 206);
+  padding: 1em;
+  color: rgb(252, 252, 252);
+}
+.propriedades>div:nth-child(odd){
+    background-color: rgb(17, 183, 239);
+}
+.lorem1 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-column-end: 3 ;
+  grid-row-end: 5 ;
+}
