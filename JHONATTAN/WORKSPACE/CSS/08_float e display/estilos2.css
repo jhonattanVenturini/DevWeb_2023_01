@@ -1,16 +1,57 @@
-body{
-    width:80%;
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 80%;
     margin: auto;
     padding: 30px;
-    font: size 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
-*{
-    padding: 0px;
-}
-img{
-    width: 100px;
-    height: 100px;
-}
-div{
-    
-}
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+  }
+  
+  img {
+    width: 400px;
+  }
+  
+  div:first-of-type,
+  div:nth-of-type(2),
+  div:nth-of-type(3) {
+    border: 2px solid #000;
+    height: 700px;
+  }
+  
+  div:first-of-type p {
+    float: right;
+    width: 60%;
+  }
+  
+  div:nth-of-type(2) img {
+    float: right;
+    width: 40%;
+  }
+  
+  div:nth-of-type(2) p {
+    float: left;
+    width: 60%;
+  }
+  
+  div:nth-of-type(3) p {
+    float: right;
+    width: 60%;
+  }
+  
+  h2,
+  h3 {
+    margin: 10px 0;
+  }
+  
+  figure {
+    margin: 10px 0;
+  }
+  
+  figcaption {
+    font-style: italic;
+    text-align: center;
+  }
