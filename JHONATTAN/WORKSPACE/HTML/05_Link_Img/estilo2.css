@@ -1,0 +1,21 @@
+h1{
+background-color:;
+color: black;
+text-align: center;
+}
+body{
+    background-color: white;
+    color: brown;
+    padding: 5px 15px;
+}
+#jhon{
+    background-color: green;
+    color: blue;
+    margin: 5px;
+
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+}

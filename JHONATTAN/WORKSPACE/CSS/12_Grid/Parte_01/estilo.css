@@ -1,0 +1,26 @@
+
+      /* Define o grid com 4 colunas e 6 linhas */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 10px;
+      }
+      
+      /* Define o estilo dos itens */
+    .grid-item {
+        background-color: #3b12f1;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      /* Define o estilo dos itens que ocupam mais de uma coluna */
+    .grid-item-wide {
+        grid-column: span 2;
+      }
+      
+      /* Define o estilo do primeiro item da sexta linha */
+    .grid-item-first {
+        grid-column: span 2;
+      }
