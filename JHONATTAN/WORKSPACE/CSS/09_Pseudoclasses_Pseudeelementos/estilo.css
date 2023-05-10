@@ -1,0 +1,20 @@
+/* Estilos gerais */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, main, section, article, aside, footer {
+	display: block;
+}
+
+/* Estilos do cabeçalho */
+header {
+	background-color: #56b9ea;
+	color: #fff;
+	padding: 10px;
+    text-align: center;
+}
+
+/* Estilos
