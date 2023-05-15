@@ -1,59 +1,26 @@
-// Laços de repetição
+// Lacos de repetição
+var numero1 = 1;
 
-// while
-let contador = 1;
-while (contador <= 10) {
-    console.log(`Valor = ${contador}`);
-    contador++;
+// numeros 1 a 50
+while (numero1 <= 50) {
+    console.log(numero1);
+    numero1++;
 }
-// while com decremento
-console.clear();
-let cont = 10;
-while (cont >= 0) {
-    console.log(`Valor = ${cont}`);
-    cont--;
-}
-// do-while
-console.clear();
-let i = 10,
-    text = '';
+
+// contagem regressiva
+var numero2 = 10;
+
 do {
-    text += `O número é ${i}\n`;
-    i++;
-} while (i < 10);
-console.log(text);
-// For
-console.clear();
-for (let i = 0; i < 10; i++) console.log(`Laço For número: ${i}`);
-// For - Decremento
-console.clear();
-for (let i = 10; i > 0; i--) console.log(`Laço For número: ${i}`);
-// Laços de arrays
-const frutas = ['apples', 'oranges', 'pears', 10, true];
-console.clear();
-for (let j = 0; j < frutas.length; j++) console.log(`Nome: ${frutas[j]} \n`);
-// Array de objetos e laços
-console.clear();
-const todos = [
-    {
-        id: 1,
-        text: 'Take out trash',
-        isCompleted: true,
-    },
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        isCompleted: true,
-    },
-    {
-        id: 3,
-        text: 'Dentist appt',
-        isCompleted: false,
-    },
-];
-// For overloop
-for (let t of todos) {
-    console.log(t);
-    console.log(t.text);
-    console.log(t.id);
+    console.log(numero2);
+    numero2--;
+} while (numero2 >= 0);
+
+
+// numeros pares 0 a 100
+
+for (let numero1 = 1 ; numero1<= 100; numero1++){
+    if(numero1 % 2 === 0){
+        console.log(numero1)
+    }
 }
+
