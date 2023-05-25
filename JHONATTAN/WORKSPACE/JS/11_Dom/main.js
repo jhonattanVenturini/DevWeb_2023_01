@@ -18,7 +18,16 @@ console.log(document.body);
 // Alterar o título
 document.title = "Socorro Deus";
 // Criar um elemento <h1>
-let heading = document.createElement('H1');
+let nomeUsario = "Marcos"
+if (nomeUsario === "Marcos") {
+    let heading = document.createElement("h1")
+    heading.innerHTML = "Olá" ${nomeUsario}
+    document.body.appendChild(heading)
+} else{
+     let heading = document.createElement("h1")
+     heading.innerHTML = 'Olá novo Usuario !'
+     document.body.appendChild(heading);
+}
 
 heading.innerHTML = 'Olá alunos!';
 document.body.appendChild(heading)
