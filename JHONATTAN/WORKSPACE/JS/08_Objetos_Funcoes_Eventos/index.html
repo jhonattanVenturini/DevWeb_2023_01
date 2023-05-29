@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <title>Equação do Segundo Grau</title>
+    <script>
+    
+        function calcularEquacao(a, b, c) {
+            const delta = b * b - 4 * a * c;
+            const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            return { x1, x2 };
+        }
+
+    
+        const calcularEquacaoArrow = (a, b, c) => {
+            const delta = b * b - 4 * a * c;
+            const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            return { x1, x2 };
+        }
+
+        
+        function calcular() {
+            const a = 3;
+            const b = 4;
+            const c = -5;
+
+            
+            const resultado1 = calcularEquacao(a, b, c);
+            console.log('Resultado utilizando função tradicional:', resultado1);
+
+         
+            const resultado2 = calcularEquacaoArrow(a, b, c);
+            console.log('Resultado utilizando Arrow Function:', resultado2);
+
+           
+            const resultadoElement = document.getElementById('resultado');
+            resultadoElement.innerHTML = `x1 = ${resultado2.x1}, x2 = ${resultado2.x2}`;
+        }
+    </script>
+    <style>
+        button{
+            background-color: black;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
 </head>
+
 <body>
-    
-    
-    
-    <script src="main.js"></script>
+    <h1>Equação do Segundo Grau</h1>
+    <p>Equação: 3x<sup>2</sup> + 4x - 5 = 0</p>
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
 </body>
+
 </html>
