@@ -31,10 +31,21 @@ let lista = document.getElementById("lista")
 let limão = document.getElementById("limão")
 let Ovomaltine = document.getElementById("Ovomaltine")
 
-let itemRecuperado = lista.removeChild("Ovomaltine")
+let itemRecuperado = document.createElement('li')
 itemRecuperado.textContent = 'OIE NEGO';
-lista.insertBefore(itemRecuperado, limão.nextSibling);
+lista.insertBefore(itemRecuperado,chocolate.nextSibling);
 
+let button = document.querySelectorAll('button')
+button[0].style.background = 'pink'
+button[0].style.color = 'white'
+button[1].style.background = 'Blue'
+button[2].style.background = 'Red'
+button[3].style.background = 'green'
+button[4].style.background = 'yellow'
+button[5].style.background = 'gray'
+button[5].style.color = 'orange'
+button[5].style.border = 'solid 5px black'
+console.log(button)
 
 
 
