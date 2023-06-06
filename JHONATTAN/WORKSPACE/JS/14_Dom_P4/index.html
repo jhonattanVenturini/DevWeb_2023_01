@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 14 - Dom Parte 04 </title>
+    <title>Formulário</title>
 </head>
+
 <body>
+    <form id="formulario">
+
+        <h1> Formulário de Incrisção</h1> <br>
+        <!-- Nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"> <br> <br>
+
+        <!-- Data de nascimento -->
+        <label for="dataNasc">Data de Nascimento:</label>
+        <input type="date" id="dataNasc" name="dataNasc"><br> <br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br> <br>
+
+        <!-- Item -->
+        <label for="item">Item:</label>
+        <input type="text" id="item" name="item"> <br> <br>
+
+        <!-- Botões -->
+        <button type="button" onclick="incluir()">Incluir</button>
+        <button type="button" id="botão2" onclick="excluir()">Excluir</button>
+    </form>
+    <h2> Inscritos</h2>
     
+    <ul id="ListaInscritos">
+        <li> 19 </li>
+        <li> 20 </li>
+        <li> 21 </li>
+        <li> 25 </li>
+        <li> 28 </li>
+        <li> 30 </li>
+    </ul>
     
-    <script src="main.js"></script>
+
+
+
+    <script src="./main.js"></script>
+
 </body>
-</html>
