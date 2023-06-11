@@ -1,21 +1,20 @@
-const corpo = document.querySelector('body')
+let nome = document.getElementById('nome').value;
+let dataNasc = document.getElementById('dataNasc').value;
+let email = document.getElementById('email').value;
 
-var botão = document.querySelector('button')
-botão.style.background = "red"
-botão.style.color = "white"
 
-var botão2 = document.getElementById('botão2')
-botão2.style.background = 'green'
-botão2.style.color = 'white'
-
-var label = document.querySelector("label")
-label.style.background = 'red'
-label.style.color = "white"
-label.style.border = '1px solid black'
-label.style.textAlign = 'center'
-
-function BotãoIncluir() {
-    let nome = document.querySelector('nome')
-    let dataNasc = document.querySelector('dataNasc')
-    let email = document.querySelector('email')
+let inscritos = [];
+function validarEmail(email) {
+    const regex = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
+    return regex.test(email);
+}
+function CalcularIdade(dataNasc) {
+    const hoje = new Date()
+    const dataNascimento = new Date(dataNasc)
+    let idade = hoje.getFullYear() - dataNascimento.getFullYear()
+    const mes = hoje.getMonth() - dataNascimento.getMonth()
+    if (mes < 0 || mes === 0 && hoje.getDate() < dataNascimento.getDate()) {
+        idade--;
+    }
+    return idade;
 }

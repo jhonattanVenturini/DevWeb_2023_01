@@ -5,33 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Login </title>
+    <title> Login da JhonTec</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="informacaoCad">
+    <div class="corpo">
         <h1> Sistemas de Login</h1>
 
-        <label for="username" id="Usuário">Usuário:</label>
-        <input type="text" id="username" required>
+        <label for="text"> Usuário:</label>
+        <input type="text" id="username"> <br>
 
-        <label for="passaword">Senha:</label>
-        <input type="password" id="passaword" required>
+        <label for="passaword"> Senha:</label>
+        <input type="password" id="password"> <br>
 
-        <label for="role">Cargo:</label>
-        <select id="role">
-            <option value="1">Estagio</option>
-            <option value="2"> Trainee</option>
+        <label for="text"> Cargo:</label> 
+        <select id="role"> <br>
+            <option value="1"> Estágio</option>
+            <option value="2"> Traine </option>
             <option value="3"> Analista</option>
-            <option value="4">Jr</option>
-            <option value="5">Sr</option>
-            <option value="6">Pl</option>
-            <option value="7"> Líder</option>
-            <option value="8"> Ceo</option>
+            <option value="4"> Jr </option>
+            <option value="5"> Pl </option>
+            <option value="6"> SN </option>
+            <option value="7"> Líder Técnico </option>
+            <option value="8"> CEO </option>
         </select>
-        <button id="Login">Entrar</button>
+    <button onclick="login()"> Entrar</button>
     </div>
+
     <script src="main.js"></script>
 </body>
 
